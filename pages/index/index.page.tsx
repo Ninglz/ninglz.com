@@ -6,7 +6,7 @@ import Projects from './_components/Projects'
 import Footer from './_components/Footer'
 
 const documentProps = {
-  title: 'Ninglz的个人网站',
+  title: 'Ninglz的网站',
   description: 'Ninglz (wechat:liangwa408), Developer.'
 }
 
