@@ -8,7 +8,7 @@ export default () => {
       <div class="text-sm text-gray  mt-1">
         <a class="inline-block" href="http://beian.miit.gov.cn/" target="_blank" rel="nofollow noopener">蜀ICP备20010142号</a>&nbsp;|&nbsp;
         <a class='inline-block' href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51019002002735" rel="nofollow noopener" target="_blank">
-         <img class='inline-block' src="./police_beian.png" alt="police-icon"/>川公网安备 51019002002735号
+         <img class='inline-block w-4 mb-1' src="./police_beian.png" alt="police-icon"/>川公网安备 51019002002735号
         </a>
       </div>
     </footer>
