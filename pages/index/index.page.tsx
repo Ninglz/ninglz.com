@@ -2,7 +2,7 @@ import type { Component } from 'solid-js'
 
 import Hero from './_components/Hero'
 import Projects from './_components/Projects'
-import Posts from './_components/Posts'
+// import Posts from './_components/Posts'
 import Footer from './_components/Footer'
 
 const documentProps = {
