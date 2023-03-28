@@ -12,14 +12,14 @@ const render = (pageContext: PageContext) => {
 
   const { documentProps } = pageContext.exports
   const title = (documentProps && documentProps.title) || 'Diu'
-  const description = (documentProps && documentProps.description) || 'Diu (ddiu8081), Developer.'
+  const description = (documentProps && documentProps.description) || 'Ninglz (liangwa408), Developer.'
 
   return escapeInject`<!DOCTYPE html>
     <html lang="en">
       <head>
         <meta charset="UTF-8" />
         <meta name="author" content="Ninglz" />
-        <meta property="og:title" content="Ninglz 的个人网站" />
+        <meta property="og:title" content="Ninglz 的网站" />
         <meta property="og:image" content="https://ninglz/avatar.png" />
         <meta property="description" content="${description}" />
         <meta property="og:description" content="${description}" />

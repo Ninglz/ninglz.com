@@ -1,15 +1,16 @@
 export interface PostMeta {
   id: string
-  title: string
-  url: string
-  published_at: string
+  title: object
+  link: string
+  date_gmt: string
 }
 
 export function getLatestPosts(): Promise<PostMeta[]> {
-  const apiUrl = `https://notes.ljl.li/ghost/api/v3/content/posts/?key=${ import.meta.env.VITE_GHOST_CONTENT_APIKEY }&limit=5&fields=id,title,url,published_at`
+  const apiUrl = `https://1aha.com/wp-json/wp/v2/posts?per_page=3&_fields=id,title,link,date_gmt`
   return fetch(apiUrl)
     .then(async res => {
       const result = await res.json()
-      return result.posts
+      console.log(result)
+      return result
     })
 }
