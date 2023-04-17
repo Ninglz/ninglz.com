@@ -15,7 +15,7 @@ const PostItem = (props: PostProps) => {
       href={data.link}
       target="_blank"
     >
-      <div flex-1>{ data.title.rendered }</div>
+      {/* <div flex-1>{ data.title.rendered }</div> */}
       <div op-40 font-normal class="hidden sm:block">{ dayjs(data.date_gmt).format('YYYY-MM-DD') }</div>
     </a>
   )
