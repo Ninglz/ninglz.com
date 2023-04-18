@@ -5,11 +5,16 @@ export default () => {
   const projectLists = [
     {
       name: '周报生成器',
-      desc: '写周报烦恼？用ChatGPT写一个！几秒钟生成让老板满意的周报，快来试试吧👏🏻.',
+      desc: '写周报烦恼？用ChatGPT写一个！几秒钟生成让老板满意的周报，快来试试吧👏🏻。',
       link: 'https://zb.ninglz.com',
       icon: 'i-fluent-emoji-flat-bookmark-tabs',
     }, {
-      name: '啊哈空间',
+      name: '啊哈AI',
+      desc: '具备人工智能技术的聊天机器人。',
+      link: 'https://chat.1aha.com',
+      icon: 'i-fluent-emoji-flat-robot',
+    }, {
+      name: '啊哈空间(建设中)',
       desc: '让每一次访问，都收获惊喜!',
       link: 'https://1aha.com',
       icon: 'i-fluent-emoji-flat-face-with-open-mouth',

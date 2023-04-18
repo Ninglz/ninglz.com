@@ -1,4 +1,4 @@
-[ninglz.com](https://nnglz.com)
+[ninglz.com](https://ninglz.com)
 
 ## Credits
 
